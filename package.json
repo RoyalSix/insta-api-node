@@ -1,0 +1,44 @@
+{
+  "name": "instagram-api-node",
+  "version": "0.8.0",
+  "description": "Instagram API Using Node",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha",
+    "test-live": "npm --live run test",
+    "start": "node index.js"
+  },
+  "keywords": [
+    "instagram",
+    "instagram api"
+  ],
+  "author": "RoyalSix <jay.royal13@yahoo.com>",
+  "license": "MIT",
+  "dependencies": {
+    "@firebase/auth": "0.3.2",
+    "chai": "4.1.2",
+    "cheerio": "1.0.0-rc.2",
+    "clarifai": "2.6.0",
+    "firebase": "4.9.0",
+    "fs-extra": "5.0.0",
+    "lodash.merge": "4.6.0",
+    "moment": "2.20.1",
+    "ospath": "1.2.2",
+    "path-extra": "4.2.1",
+    "public-ip": "2.4.0",
+    "request": "2.83.0",
+    "shortid": "2.2.8",
+    "sleep": "5.1.1",
+    "tor-request": "1.0.6",
+    "tough-cookie": "2.3.3",
+    "tree-kill": "1.2.0",
+    "utf8": "3.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/RoyalSix/instagram-api-node"
+  },
+  "devDependencies": {
+    "mocha": "5.0.0"
+  }
+}
